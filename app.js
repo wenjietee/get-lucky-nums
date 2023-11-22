@@ -38,11 +38,6 @@ $(() => {
             alert("Only up to 3 predetermined numbers allowed.");
             return;
         }
-        if ($amountEle.val().includes("0")) {
-            $amountEle.text("");
-            alert("Zeros not allowed.");
-            return;
-        }
         if ($amountEle.val()) {
             inputvalue = $amountEle.val();
         }
