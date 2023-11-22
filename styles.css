@@ -1,0 +1,90 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Meera+Inimai&display=swap');
+
+/* Layout */
+.container {
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.card-main {
+	margin-top: 0px;
+}
+
+
+/* Texts */
+body {
+	font-family: 'Spartan', sans-serif;
+	font-size: 12px;
+	background: #ffffff;
+}
+footer {
+	text-align: center;
+	color: rgb(158, 158, 158);
+}
+
+.title{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+.number4d-title{
+	margin-top:15px;
+}
+.number-set{
+	text-align: center;
+}
+
+/* Inputs */
+.amount-input-container{
+	text-align: center;
+	margin: 0 auto;
+}
+#amount-input {
+	text-align: center;
+	width:40%;
+	height: 50px;
+	font-size: 25px;
+}
+
+/* Buttons */
+#calculate {
+	height: 50px;
+	margin-bottom: 2em;
+}
+.button-primary {
+	font-size: 0.5em;
+	background-color:rgb(10, 80, 112) !important;
+	border: none;
+}
+
+/* Misc */
+hr {
+	border-top: 2px dashed rgb(177, 177, 177);
+}
+
+/* Mobile */
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 700px) {
+	.clipboard {
+		margin-left: 0.5em;
+		margin-top: 0px;
+	}
+	.columns > h5 {
+		font-size: 20px;
+		margin-left: 0em;
+	}
+	#calculate {
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+@media (max-width: 600px) {
+	#calculate {
+		width: 100%;
+	}
+	hr {
+		margin-top: 50px;
+	}
+}
